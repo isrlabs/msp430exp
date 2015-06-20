@@ -5,6 +5,9 @@ namespace std {
 // Isn't working; complains about libc++ not being found. The GCC
 // is probably old and crusty.
 
+// So far, I haven't been able to find an MSP430 C++11 compiler. It
+// doesn't look like CrossWorks has one; looking into TI's CCS.
+
 namespace {
 	const std::uint8_t	DDR = 0x22;
 	const std::uint8_t	PORT1 = 0x21;
